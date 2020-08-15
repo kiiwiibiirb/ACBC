@@ -1,7 +1,3 @@
---[[
-    This is a calculator I have made with the only intention to find how many bells you'll get for selling fish and bugs in Animal Crossing: New Horizons. This is nothing more than a calculator that only multiplies. Maybe in a future update I'll add the ability to add with other items but I can't promise it.
-]]
-
 -- This is a list of all fish in Animal Crossing: new Horizons. I can probably slim it down due to duplicate amounts, but I see no real benifet to it.
 local price ={
     ['Anchovy'] = 200,
@@ -103,7 +99,7 @@ local fish = price[io.read()]
 print()
 
 -- Multiplies the number of fish being sold and the fish from the table above!
-print("You will get",num1*fish,"for selling to the nooklings!")
+print("You will get", num1*fish, "for selling to the nooklings!")
 print()
 
 print("Press ENTER to exit.")
